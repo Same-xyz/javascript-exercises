@@ -8,7 +8,7 @@ const leapYears = function (year) {
     (!isCentury || isYearDivisibleByFourHundred)
   ) {
     return true;
-  } else {
+  } else {  
     return false;
   }
 };
